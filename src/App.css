@@ -1,3 +1,19 @@
 * {
   margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #edf0f7;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+html,
+body,
+.container {
+  height: 100%;
 }
