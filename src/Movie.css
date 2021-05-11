@@ -1,0 +1,18 @@
+.movies__movie {
+  display: flex;
+}
+
+.movies__movie img {
+  width: 130px;
+  height: 200px;
+  margin: 16px;
+}
+
+.movies__movie .movie__data {
+  margin-top: 16px;
+  margin-right: 16px;
+}
+
+.movies__movie .movie__data .movie__title {
+  margin-bottom: 16px;
+}
