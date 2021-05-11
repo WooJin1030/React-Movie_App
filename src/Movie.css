@@ -6,7 +6,7 @@
 
 .movies__movie {
   width: 40%;
-  min-height: 500px;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   margin: 68px 0;
