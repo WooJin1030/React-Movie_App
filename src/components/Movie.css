@@ -4,11 +4,16 @@
   justify-content: space-around;
 }
 
-.movies__movie {
+.movies a {
   width: 40%;
-  min-height: 300px;
-  display: flex;
-  flex-direction: column;
+  height: 400px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 128px;
+}
+
+.movies__movie {
+  height: 100%;
   margin: 68px 0;
   background-color: white;
   border-radius: 16px;
@@ -34,7 +39,6 @@
 }
 
 .movies__movie .movie__top .movie__data {
-  margin-top: 16px;
   margin-right: 16px;
 }
 
