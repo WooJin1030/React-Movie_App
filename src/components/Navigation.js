@@ -1,11 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Navigation.css";
 
 function Navigation() {
   return (
-    <div>
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
+    <div class="nav">
+      <Link to="/" class="nav__home">
+        Home
+      </Link>
+      <Link to="/about" class="nav__about">
+        About
+      </Link>
     </div>
   );
 }
