@@ -1,6 +1,6 @@
 # React JS Movie App
 
-### Practicing React
+### Practice React
 
 <br>
 <br>
